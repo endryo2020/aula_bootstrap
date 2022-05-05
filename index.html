@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--inicia o html e define a lingua portuguesa-->
+    <head>
+        <title>Minha pagina</title> <!-- o titulo indica o titulo da página-->
+        <meta charset="utf-8">   <!-- indicado para remover erro de linguagem-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> <!-- Aqui está linkando as pastas que vão ser utilizadas na página-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/image1.jpg" width="100" class="margin2">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+
+
+          <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin"> <!-- o container ele vai trabalhar somente com o meio da página, mas o fluid vai fazer com que ele pegue o tamanho total da página-->
+                <h3>Quem somos</h3>
+                <img src="img/image2.jpg" class="rounded-circle" width="400" height="400">
+                <h3>Somos um time comprometidos com os resultados</h3>
+            </div>
+          </section>
+
+          <selection id="parceiros">
+              <div class="container-fluid  text-center margin parceiros">
+                <h3>Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/image3.jpg"  class="rounded-circle" width="100%"> 
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/image3.jpg" class="rounded-circle" width="100%">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/image3.jpg" class="rounded-circle" width="100%">
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </selection>
+
+          <section id="servicos">
+              <div class="container-fluid text-center margin servicos">
+                <h3>Serviços</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design scheme and the classic web safe color palette, all with Hex color codes.</p>
+                            <img src="img/image1.jpg" width="100%">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design scheme and the classic web safe color palette, all with Hex color codes.</p>
+                            <img src="img/image2.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <footer class="container-fluid text-center bg-footer margin">
+              <p>Desenvolvido por Endryo Pablo</p>
+          </footer>
+
+    </body>
+
+</html>
